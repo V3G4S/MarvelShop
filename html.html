@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Venda da MARVEL</title>
+</head>
+<body>
+    <header>
+        <div id="hcont">
+            <button onclick="criaLogin()" id="clog">Registrar</button>
+            <button onclick="abreLogin()" id="log">Login</button>
+            <h1><i><b>MARVEL's Shop</b></i></h1>
+            <a href="#" onclick="calculaCesta" class="car">comprar<img src="img/shopee.png" alt="Carrinho"></a>
+        </div>
+    </header>
+    <main class="container">
+        <section class="produtos-container">
+            <h2><b>Escolha o(s) personagem(s) e clique em comprar!</b></h2>
+            <article class="card">
+                <div class="produto-img" id="img1"></div>
+                <h3>Miranha's Funko</h3>
+                <p>Qtd: <input type="number" value="1" min="0" max="10" id="qtd1"></p>
+                <p>R$ <span id="ha" class="bold">89,99</span></p>
+            </article>
+            <article class="card">
+                <div class="produto-img" id="img2"></div>
+                <h3>Thor's Funko</h3>
+                <p>Qtd: <input type="number" value="1" min="0" max="10" id="qtd2"></p>
+                <p>R$ <span id="th" class="bold">99,99</span></p>
+            </article>
+            <article class="card">
+                <div class="produto-img" id="img3"></div>
+                <h3>Capitã Lacre's Funko</h3>
+                <p>Qtd: <input type="number" value="1" min="0" max="10" id="qtd3"></p>
+                <p>R$ <span id="cl" class="bold">279,99</span></p>
+            </article>
+            <article class="card">
+                <div class="produto-img" id="img4"></div>
+                <h3>Ervilha's Funko</h3>
+                <p>Qtd: <input type="number" value="1" min="0" max="10" id="qtd4"></p>
+                <p>R$ <span id="ev" class="bold">109,99</span></p>
+            </article>
+            <article class="card">
+                <div class="produto-img" id="img5"></div>
+                <h3>Sucata's Funko</h3>
+                <p>Qtd: <input type="number" value="1" min="0" max="10" id="qtd5"></p>
+                <p>R$ <span id="sc" class="bold">9,99</span></p>
+            </article>
+            <article class="card">
+                <div class="produto-img" id="img6"></div>
+                <h3>America Boy's Funko</h3>
+                <p>Qtd: <input type="number" value="1" min="0" max="10" id="qtd6"></p>
+                <p>R$ <span id="ab" class="bold">109,99</span></p>
+            </article>
+        </section>
+    </main>
+    <footer id="rodape">
+        <h2>Sobre o site</h2>
+        <p><span class="bold">Marvel Comics</span>&copy; 2024</p>
+    </footer>
+    
+</body>
+</html>
