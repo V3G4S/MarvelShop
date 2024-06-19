@@ -82,22 +82,22 @@ h1{
     padding: 15px;
 }
 #img1{
-    background-image: url('../img/miranha.jpg');
+    background-image: url('img/img0.jpg');
 }
 #img2{
-    background-image: url('../img/thor.jpg');
+    background-image: url('img/img1.jpg');
 }
 #img3{
-    background-image: url('../img/lacradora.jpg');
+    background-image: url('img/img2.jpg');
 }
 #img4{
-    background-image: url('../img/ervilha.jpg');
+    background-image: url('img/img3.jpg');
 }
 #img5{
-    background-image: url('../img/sucata.jpg');
+    background-image: url('img/img4.jpg');
 }
 #img6{
-    background-image: url('../img/americano.jpg');
+    background-image: url('img/img5.jpg');
 }
 footer{
     background-color: #3232e3;
